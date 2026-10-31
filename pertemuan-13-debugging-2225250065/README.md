@@ -51,3 +51,6 @@ Setelah perbaikan diterapkan, seluruh test case dijalankan kembali dan menghasil
 ## Cara Menjalankan
 ```bash
 python3 praktik/praktik_4_debugging.py
+
+## Refleksi
+Teknik debugging yang paling membantu adalah penyusunan test case secara sistematis (Black-Box & Boundary Value Analysis) dikombinasikan dengan tracing manual. Dengan mendefinisikan expected output terlebih dahulu sebelum melihat kode secara mendalam, kita bisa langsung mendeteksi ketidaksesuaian logika (seperti pembagi statis atau salah arah operator perbandingan < dan >) secara cepat dan tepat sasaran.
